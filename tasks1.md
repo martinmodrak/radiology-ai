@@ -1,12 +1,12 @@
 ---
-title: "Lesson 2 - Task materials"
+title: "Část 1 - učení a overfitting"
 output: 
   html_document:
     number_sections: true
 ---
 
 
-# Fitting and overfitting
+# Seznamte se
 
 We will use the demo app at https://codepen.io/oscarsaharoy/full/eYggrme
 
@@ -20,7 +20,7 @@ You may:
 - Change the type of fit (we will focus on linear/polynomial)
 
 
-## When line is not enough
+# When line is not enough
 
 - Start with the default "linear" fit and default dataset. 
 - Add/move a couple points, until you think the data is not well fit with a line.
@@ -28,7 +28,7 @@ You may:
 - Has the fit improved?
 - Try moving a single point around. Where do you need to place the point to affect the overall fit the most?
 
-## Find polynomial order
+# Find polynomial order
 
 Paste the following in the "points" text area:
 
@@ -87,7 +87,7 @@ Paste the following in the "points" text area:
 Switch to "polynomial" fit and change the order of the polynomial. Which order looks like the best generalization?
 Why?
 
-## Manual "cross-validation"
+# Manual "cross-validation"
 
 Paste the following as "points":
 
@@ -111,7 +111,7 @@ Paste the following as "points":
 - Which of the fits seems to generalize best?
 
 
-## Zmatení nepřítele
+# Bonus: Zmatení nepřítele
 
 Na odkazu níže najdete program, který se pokouší uhádnout, jakou klávesu ("f" nebo "d") zmáčknete.
 Cílem je mačkat tak náhodně, že program nebude mít lepší přesnost než cca 50%. Jak nízko se dokážete dostat?

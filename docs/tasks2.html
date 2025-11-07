@@ -11,7 +11,7 @@
 
 
 
-<title>Část 2</title>
+<title>Část 2 - Hrajeme si s čísly</title>
 
 <script src="site_libs/header-attrs-2.26/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
@@ -251,6 +251,9 @@ $(document).ready(function () {
 <li>
   <a href="tasks2.html">Část 2</a>
 </li>
+<li>
+  <a href="tasks3.html">Část 3</a>
+</li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         
@@ -263,18 +266,50 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Část 2</h1>
+<h1 class="title toc-ignore">Část 2 - Hrajeme si s čísly</h1>
 
 </div>
 
 
-<div id="tvorba-trénovacích-dat" class="section level1" number="1">
-<h1><span class="header-section-number">1</span> Tvorba trénovacích
-dat</h1>
-<p>Vyzkoušíme si na příkladu z neurověd a pomůžeme vědě!</p>
-<p><a
-href="https://www.zooniverse.org/projects/chloezycheng/science-scribbler-synapse-safari/classify"
-class="uri">https://www.zooniverse.org/projects/chloezycheng/science-scribbler-synapse-safari/classify</a></p>
+<div id="seznamte-se" class="section level1" number="1">
+<h1><span class="header-section-number">1</span> Seznamte se</h1>
+<p>Použijeme velmi populární dataset MNIST <a
+href="https://en.wikipedia.org/wiki/MNIST_database#/media/File:MNIST_dataset_example.png">ukázka
+1</a>, <a
+href="https://upload.wikimedia.org/wikipedia/commons/2/27/MnistExamples.png">ukázka
+2</a>.</p>
+<p>Dále využijeme online aplikaci, kde můžete nakreslit číslo a nechat
+si ho zklasifikovat modelem natrénovanám na MNIST: <a
+href="https://mco-mnist-draw-rwpxka3zaa-ue.a.run.app/"
+class="uri">https://mco-mnist-draw-rwpxka3zaa-ue.a.run.app/</a></p>
+</div>
+<div id="kdy-to-funguje-hezky" class="section level1" number="2">
+<h1><span class="header-section-number">2</span> Kdy to funguje
+hezky</h1>
+<p>Vyzkoušejte nakreslit pár dobře rozpoznatelných čísel (2, 3, 8).
+Kreslete co nejčitelněji a tak, aby číslice zabírala celý rámeček,
+sledujte, jak se klasifikace vyvíjí během kreslení.</p>
+</div>
+<div id="jedničky" class="section level1" number="3">
+<h1><span class="header-section-number">3</span> Jedničky</h1>
+<p>Vymyslete, jak spolehlivě nakreslit číslo, které pro vás vypadá jako
+“1”, zabírá celý rámeček ale je klasifikováno jako nějaké úplně
+jiné.</p>
+<p>Podívejte se na ukázky z trénovacích dat (link výše), dokážete
+vysvětlit, proč dochází k omylu?</p>
+<p><!-- Notes: česká jednička není moc v trénovacích datech, často klasifikuje jako 7 --></p>
+</div>
+<div id="malá-čísla" class="section level1" number="4">
+<h1><span class="header-section-number">4</span> Malá čísla</h1>
+<p>Nakreslete nějaké z čísel, které model dobře rozpoznává, ale menší,
+umístěné do rohu rámečku. Co se stane? Napadá vás proč?</p>
+</div>
+<div id="není-to-číslo" class="section level1" number="5">
+<h1><span class="header-section-number">5</span> Není to číslo</h1>
+<p>Nakreslete písmeno nebo náhodný klikihák. Co se stane?</p>
+<p>Najděte písmeno/klikihák, které je spolehlivě a s velkou jistotou
+klasifikováno jako nějaké číslo
+<!-- Hodně čar se často ukáže jako 8 --></p>
 </div>
 
 

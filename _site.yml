@@ -8,6 +8,8 @@ navbar:
       href: tasks1.html
     - text: "Část 2"
       href: tasks2.html
+    - text: "Část 3"
+      href: tasks3.html
 output_dir: docs
 include: ["*.html", "*.png"]
 exclude: ["R", "*.R", "*.Rmd", "DESCRIPTION", "NAMESPACE", "renv.lock", "LICENSE", "tests"]
