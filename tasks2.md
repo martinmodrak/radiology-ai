@@ -39,3 +39,14 @@ Nakreslete písmeno nebo náhodný klikihák. Co se stane?
 
 Najděte písmeno/klikihák, které je spolehlivě a s velkou jistotou klasifikováno jako nějaké číslo
  <!-- Hodně čar se často ukáže jako 8 -->
+
+
+# Bonus: Tvorba trénovacích dat
+
+Viděli jsme, co se model může (NE)naučit z trénovacích dat. Jak ale trénovací data vznikají?
+Vyzkoušíme si na příkladu z biologie a pomůžeme vědě! 
+
+Zooniverse je projekt, kde široká veřejnost může pomoci s trénováním modelů pro analýzu vědeckých obrázků (i jiných dat),
+zkuste si zaklasifkovat pár mitochondrií na
+
+https://www.zooniverse.org/projects/msbrhonclif/science-scribbler-placenta-profiles/classify
