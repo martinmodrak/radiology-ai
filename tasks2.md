@@ -14,6 +14,8 @@ Použijeme velmi populární dataset MNIST [ukázka 1](https://en.wikipedia.org/
 Dále využijeme online aplikaci, kde můžete nakreslit číslo a nechat si ho zklasifikovat modelem natrénovanám na MNIST:
 https://zackakil.github.io/mnist-draw/
 
+<!-- TODO: priklad funguje spatne na tabletech -->
+<!-- TODO: 2026 bylo hodne rychle -->
 
 # Kdy to funguje hezky
 
